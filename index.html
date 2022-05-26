@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <header>
+        <div class="row">
+            <h4>STRUCTURE</h4>
+            <nav > 
+            <ul id="menulist">
+                <li><a  href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Gallery</a></li>
+                <li><a href="">Service</a></li>
+                <li><a href="">Team</a></li>
+                <li><a href="">Price</a></li>
+                <li><a href="">News</a></li>
+                <li><a href="">Contact</a></li>
+                     </ul>
+                     </nav>
+                     <img src="./images/menu-bar.png" class="menu" onclick="togglemenu()"> 
+         </div>
+    </header>
+
+<div class="row-1">
+ <p>WE BUILD YOUR</p>
+ <h2><span class="h-2">DREAM</span> HOUSE</h2>
+ <p class="ano-p1">Fast & Safe Construction</p>
+ <p class="ano-p2"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna<br>
+     aliqua. Ut quis nostrud excercitation ullamco laboris nisi ut aliquip ex ea commondo consequat. 
+ </p>
+ <button> GET A QUOTE<img src="./images/arrow.png"></button>
+</div>
+
+</div>
+<script>
+    
+    var menulist = document.getElementById("menulist");
+    menulist.style.maxHeight ="0px";
+     
+     function togglemenu(){
+         if(menulist.style.maxHeight="0px"){
+             menulist.style.maxHeight="250px";
+         }
+         else{
+             menulist.style.maxHeight = "0px";
+         }
+     }
+
+</script>
+</body>
+</html>
